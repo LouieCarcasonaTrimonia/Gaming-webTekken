@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0a0a0a, #1c1c1c); /* black to dark gray */
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      backdrop-filter: blur(8px);
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #ff3131;
+      text-shadow: 0 0 10px #ff3131, 0 0 20px #ff6f6f;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s, text-shadow 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff3131;
+      text-shadow: 0 0 10px #ff3131;
+    }
+
+    .about-wrapper {
+      max-width: 800px;
+      margin-top: 120px;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    }
+
+    .about-wrapper h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #ff3131;
+    }
+
+    .about-wrapper p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #dcdcdc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">ArcadiaX</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="Clips.html">Clips</a>
+      <a href="about.html">About</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="about-wrapper">
+    <h1>About ArcadiaX</h1>
+    <p>
+      ArcadiaX is a hub built for gamers, fans and fighters who want to dive deeper into the world of Tekken and esports culture.  
+      From epic EVO highlights to character spotlights, this space is designed to bring the heat of the arena right to your screen.  
+      Whether you’re here to catch legendary battles or just explore your favorite fighters, ArcadiaX is where passion meets play.  
+    </p>
+  </div>
+</body>
+</html>
